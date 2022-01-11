@@ -1,0 +1,76 @@
+.PostCard{
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin: 1.5rem 0rem;
+    /* width: 45rem; */
+    /* padding: 1rem; */
+    /* width: /; */
+}
+.postCard__header{
+    display: white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.postCard__header > div{
+    display: white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postCard__header > div > span:hover{
+    text-decoration:underline ;
+}
+
+.posticon{
+    font-size: 25px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    /* display: flex; */
+}
+
+.posticon > div > span{
+    font-weight: 500;
+    color: #262626
+}
+
+.postaction{
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.lightertext{
+    font-weight: 300;
+    color:gray;
+}
+.post_content{
+    display: flex;
+    flex-direction: column;
+}
+.post_content b{
+    font-weight: 500;
+}
+.post_content b:hover{
+    cursor: pointer;
+}
+.post__comment{
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post__comment input{
+    flex:1;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+.post__comment > a{
+    color: hsl(199, 88%, 53%);
+    font-weight: 500;
+}
